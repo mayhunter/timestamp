@@ -13,6 +13,4 @@ app.get('/:timestamp', function (req, res) {
   res.send(JSON.stringify(output));
 });
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 3000!');
-});
+app.listen(8080);
